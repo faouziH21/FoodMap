@@ -1,0 +1,67 @@
+@import "node_modules/ol/ol.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import "node_modules/ol/ol.css";
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 124px;
+  bottom: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+}
+
+li, a, button  {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+select{
+  margin-left: auto;
+  width: 250px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 28px 10%;
+  background-color:#004cff8c ;
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.cap {
+  font-family: "Orbitron", sans-serif;
+  margin-right: auto;
+  color:azure ;
+}
+
+
+button {
+  padding: 7px 25px 7px 25px;
+  background-color: gray;
+  margin: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(130, 16, 16);
+}
