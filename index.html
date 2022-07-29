@@ -12,9 +12,9 @@
 
   <header>
     <div class = "cap">
-    <b class="logo" href="+">
+    <c class="logo" href="+">
       <h1>FoodMap</h1>
-    </b>
+    </c>
       <select name="field" id="foodSelectField"></select>
     </div>
     <button type="button" id="NumbersButton"> show/remove numbers </button>
@@ -59,7 +59,20 @@
   
   
 
-
+  <style>
+    b {
+      color: cornflowerblue  ;
+      text-decoration: none;
+    }
+    
+    b:hover {
+      color: cornflowerblue;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+   
+    </style> 
   <div class = "secondPopUp center">
     <div class = "contactTitle">Contact</div>
     <div class = "contact">
@@ -68,14 +81,13 @@
       <p>FoodMap was done in a 1 month internship at Terrestris.</p>
       <p> --------------------</p>
          Data source: Food & Agriculture organization 
-      <p>Geodata source: <a href = "https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/information/">World Food Programme (UN agency)</a></p>
+      <p>Geodata source: <b id = "geoLink" href = "https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/information/">World Food Programme (UN agency)</b></p>
     </div>
+    
     <div class = "dismiss-btn2">
       <button id = "dismiss-popup-btn2">Dismiss</button>
     </div>
   </div>  
-  
-  
   
   <div class = "popup center">
     <div class ="icon">
