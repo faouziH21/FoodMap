@@ -8,6 +8,7 @@ import foodData from './hopeworld.min.json';
 import iso_3166_1_alpha_2_codes from './hopeworld.min.json';
 import name from './hopeworld.min.json';
 
+//bad code
 let select = document.querySelector('select');
 let textVisible = true;
 const highestProdArray = {};
